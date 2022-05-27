@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>About</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheets/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylesheets/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-blue w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">HOME</a>
+    <a href="history.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">HISTORY</a>
+    <a href="festivals.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">FESTIVALS</a>
+    <a href="food.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">FOOD</a>
+    <a href="popular.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">POPULAR</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top nav-margin">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+    <a href="history.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HISTORY</a>
+    <a href="festivals.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FESTIVALS</a>
+    <a href="food.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FOOD</a>
+    <a href="popular.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">POPULAR</a>
+</div>
+
+<!--Content main-->
+<div class="w3-content pag-cont">
+  <div class="box">
+    <div class="content">
+      <p>We are a promoting company. Advert with us from $2.29 per month.</p>
+      <h2 class="align-center">Contact us</h2>
+      <hr />
+      <form>
+        <div class="field half first">
+          <label>Name</label>
+          <input name="name" type="text" placeholder="Name">
+        </div>
+        <div class="field half">
+          <label>Email</label>
+          <input name="email" type="email" placeholder="Email">
+        </div>
+        <div class="field">
+          <label>Leave a review about the site</label>
+          <div class="select-wrapper">
+            <select>
+              <option>- How much did you enjoyed navigating on our website? -</option>
+              <option>It's awesome!</option>
+              <option>It was decent!</option>
+              <option>Not so much..</option>
+              <option>It needs improvement</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label class="align-left">Message</label>
+          <textarea placeholder="Message"></textarea>
+        </div>
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn" type="button" class="align-center">Submit</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+
+        <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Thank you for your time! :)</p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+<!-- End Page Content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-blue w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <p><a href="refrences.html" class="w3-medium no-decoration">Refrence page</a></p>
+</footer>
+
+<script src="scripts/scripts.js"></script>
+<script src="scripts/modal.js"></script>
+</body>
+</html>
